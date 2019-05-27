@@ -1,0 +1,19 @@
+{
+  "uri": "/beer/:id",
+  "type": "PUT",
+  "request": {
+    "params": {
+      "id":"1"
+    },
+    "query": {},
+    "body": {
+      "name": "my-beer",
+      "quantity": 1
+    }
+  },
+  "response": {
+    "id": 1,
+    "name": "my-beer",
+    "quantity": 1
+  }
+}

@@ -1,0 +1,17 @@
+{
+  "uri": "/beer",
+  "type": "POST",
+  "request": {
+    "params": {},
+    "query": {},
+    "body": {
+      "name": "my-beer",
+      "quantity": 1
+    }
+  },
+  "response": {
+    "id": 21,
+    "name": "my-beer",
+    "quantity": 1
+  }
+}

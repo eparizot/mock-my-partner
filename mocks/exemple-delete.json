@@ -1,0 +1,14 @@
+{
+  "uri": "/beer/:id",
+  "type": "DELETE",
+  "request": {
+    "params": {
+      "id":"1"
+    },
+    "query": {},
+    "body": {}
+  },
+  "response": {
+    "id": 1
+  }
+}
