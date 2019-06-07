@@ -18,6 +18,7 @@ const generateRoute = function(app, mock) {
 
 /** Get response of a route from redis */
 const getRouteResponse = async function(req, res, uri) {
+	console.log("Api called : " + uri);
     const rawData = await RedisClient.getAsync(createKeyFromWS(req, uri));
     return res.json(JSON.parse(rawData));
 };
